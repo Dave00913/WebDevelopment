@@ -1,0 +1,55 @@
+.myCanvas {
+    width: 500px;
+    height: 400px; 
+    position: relative;
+    border: 2px solid #000000; 
+    border-radius: 50px;
+}
+
+#username {
+    position:absolute; 
+    left:40px; 
+    top: 65px;
+}
+
+#usernameTextBox {
+    background-color: #d0ebf7; 
+    border-color: #4287f5;
+    border-radius: 5px; 
+    font-size: medium; 
+    position: absolute; 
+    padding: 5px; 
+    left: 120px; 
+    top: 60px; 
+    width: 200px
+}
+
+#password {
+    position:absolute; 
+    left:40px; 
+    top: 145px;
+}
+
+#passwordTextBox {
+    background-color: #d0ebf7; 
+    border-color: #4287f5;
+    border-radius: 5px; 
+    font-size: medium; 
+    position: absolute; 
+    padding:5px; 
+    left:120px; 
+    top: 140px; 
+    width: 200px
+}
+
+#loginButton {
+    background-color: #d0ebf7; 
+    border-color: #4287f5;
+    border-radius: 5px; 
+    height: 30px; 
+    width: 150px; 
+    position: absolute; 
+    padding:5px; 
+    left: 185px; 
+    top: 200px;
+}
