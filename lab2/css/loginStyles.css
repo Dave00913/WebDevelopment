@@ -1,0 +1,10 @@
+.card {
+    margin-left: 50%;
+    margin-right: 50%;
+    width: auto;
+}
+
+.btn-primary {
+    width: 100px;
+    background-color: rgb(50, 176, 215);
+}
