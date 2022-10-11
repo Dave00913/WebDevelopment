@@ -26,10 +26,7 @@ saveProperty.onclick = () => {
     const personFirstName = firstName.value
     const personLastname = lastName.value
     lists.innerHTML += `<li class="list-group-item"> ${personFirstName} ${personLastname} </li>`
-    // const newPerson = document.createElement("li")
-    // newPerson.append(personFirstName + " " + personLastname)
-
-    // lists.append(newPerson)
+    
     personProperty.style.display = "none"
     lists.style.display = "block"
     tableheader.style.display = "block"
