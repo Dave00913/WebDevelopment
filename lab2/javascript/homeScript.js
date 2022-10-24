@@ -25,8 +25,14 @@ cancel.onclick = () => {
 saveProperty.onclick = () => {
     const personFirstName = firstName.value
     const personLastname = lastName.value
-    lists.innerHTML += `<li class="list-group-item"> ${personFirstName} ${personLastname} </li>`
-    
+    // lists.innerHTML += `<li class="list-group-item"> ${personFirstName} ${personLastname} </li>`
+
+    const newPersonAdded = document.createElement("li")
+    newPersonAdded.append(personFirstName)
+    newPersonAdded.className = 'list-group-item'
+
+    lists.prepend(newPersonAdded)
+
     personProperty.style.display = "none"
     lists.style.display = "block"
     tableheader.style.display = "block"
